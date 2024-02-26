@@ -27,7 +27,7 @@
 
       <div data-controller="loading" class="mt-5">
         <div class="new-quiz-submit" >
-          <%= f.submit "Create Quizz!", data: { action: "click->loading#show", loading_target: "loadingPopup" }, class: "new-quiz-submit-button wide-button centered-button boxbutton white-txt" %>
+          <%= f.submit "Create Quizz!", data: { action: "click->loading#show", loading_target: "loadingPopup" }, class: "new-quiz-submit-button wide-button centered-button white-txt" %>
           <%= render "shared/loading-popup" %>
         </div>
       </div>
